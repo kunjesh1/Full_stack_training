@@ -1,0 +1,36 @@
+p,h1,h2,div,ul{
+
+width:500px;
+margin:0 auto;
+
+}
+
+
+#box1{
+    border:1px solid black;
+    padding:20px;
+    box-shadow:5px 5px gray;
+    position:-webkit-sticky;
+
+
+}
+
+*{
+
+    line-height: 200%;
+}
+
+
+.container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#fixed1{
+    margin-bottom:300px;
+    position: -webkit-sticky;
+}

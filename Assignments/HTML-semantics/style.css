@@ -1,0 +1,39 @@
+.clearfix:after,.clearfix:before{
+
+content:" ";
+display:block;
+
+}
+
+
+
+.clearfix:after{
+
+    clear:both;
+}
+
+.container{
+
+
+background: darkgray;
+
+}
+
+
+.box{
+
+width:100px;
+height:100px;
+background:black;
+}
+
+.left{
+
+
+    float:left;
+}
+
+.right{
+
+    float:right;
+}

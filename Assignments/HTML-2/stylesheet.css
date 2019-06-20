@@ -1,0 +1,51 @@
+div.blue
+{
+background-color:lightblue;
+border:3px solid blue;
+margin-bottom:15px;
+line-height: 120px;
+width:150px;
+position:relative;
+z-index: 40;
+
+
+}
+div.red
+{
+background-color:palevioletred;
+border:3px solid red;
+margin-bottom:-40px;
+margin-top:-70px;
+line-height: 120px;
+width:150px;
+position:relative;
+z-index:-30;
+
+}
+
+.dashed-box { 
+    position: relative;
+    z-index: auto;
+    border: dashed;
+    height: 8em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+  }
+  .gold-box { 
+    position: absolute;
+    z-index: auto; /* put .gold-box above .green-box and .dashed-box */
+    background: gold;
+    width: 80%;
+    left: 60px;
+    top: 3em;
+  }
+  .green-box { 
+    position: absolute;
+    z-index: initial; /* put .green-box above .dashed-box */
+    background: lightgreen;
+    width: 20%;
+    left: 65%;
+    top: -25px;
+    height: 7em;
+    opacity: 0.9;
+  }
